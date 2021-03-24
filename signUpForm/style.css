@@ -1,0 +1,127 @@
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    margin:  50px 0;
+    font-size: small;
+}
+
+#photo{
+    display: none;
+}
+
+#logout{
+    font: bold 15px tahoma;
+    margin-bottom: 10px;
+}
+#mydata{
+    font: bold 15px tahoma;
+    margin-top: 2px;
+    
+}
+
+#users{
+    font: bold 15px tahoma;
+    margin-top: 2px;
+}
+
+h1 {
+    color: purple;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0.45em;
+    margin-top: 0.1em;
+    line-height:2;
+    font-family: "Georgia", Cambria, Times New Roman, Times, serif; 
+}
+
+b {
+    color:  purple;
+}
+
+button {
+    background-color:  purple;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    margin: 25px 0;
+    cursor: pointer;
+    width: 50%;
+    align-self: center;
+     margin-left: 25%;
+}
+
+#html_signup{
+    display: none;
+}
+
+#html_loggedin {
+    display: none;
+}
+
+#success{
+    display: none;
+    color: purple;
+}
+
+#button1{
+    font: bold 14px tahoma;
+}
+
+#signup {
+    margin-left: 25%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password],  input[type=email], input[type=date]{
+    width: 100%;
+    padding: 4px 7px;
+    margin: 2px 0;
+    display: block;
+}
+
+select[id=country] {
+    width: 100%;
+    padding: 4px 7px;
+    margin: 2px 0;
+    display: block; 
+}
+
+input[type=radio] {
+    display: inline;
+}
+
+.container {
+    width: 60%;
+    background-color:  rgba(255,255,255,0.5);
+    padding: 50px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .form {
+        width: 100%
+    }
+}
